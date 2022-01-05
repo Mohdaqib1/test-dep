@@ -1,7 +1,7 @@
 
-import React,{ useState, useContext} from 'react'
+import React,{ useState} from 'react'
 
-export default function Add(todos, setTodos, fetchTodos) {
+export default function Add() {
     const [useritem, setUserItem] = useState("")
     
     const handleInput = event  => {
