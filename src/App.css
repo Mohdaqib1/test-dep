@@ -1,38 +1,212 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+}
+header{
+  
+  background-color: rgb(12, 158, 78);
+
+}
+ .Head1{
+  background-color: rgb(12, 158, 78);
+  padding-left: 24px;
+   padding-right: 24px;
+   padding-bottom: 12px;
+   padding-top: 12px;
+   text-align: center;
+ }
+ .frm{
+   text-align: center;
+   margin-top: 30px;
+ }
+ .input{
+   padding-top: 10px;
+   padding-bottom: 10px;
+ 
+   box-sizing: border-box;
+   border: none;
+   border-bottom: 2px solid rgb(12, 158, 78);
+   cursor: inherit;
+   border-radius: 15px;
+ }
+ .l1{
+   color: black;
+   margin: 10px;
+   padding-bottom: 12px;
+   padding-top: 12px;
+   background: rgb(82, 158, 6);
+ }
+
+ .he{
+   padding: 45px;
+   color: white;
+   
+ }
+ .he1{
+  text-align: end;
+  padding-bottom: 10px;
+  color: black;
+  padding-right: 60px;
+ }
+ .da{
+   margin: 20px;
+   text-align: center;
+ }
+ .bu{
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  align-items:end;
+   padding-left: 24px;
+   padding-right: 24px;
+   padding-bottom: 12px;
+   padding-top: 12px;
+   background-color: rgb(02, 14, 26);
+   color: cornsilk;
+ }
+ 
+.b2{
+
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  align-items:end;
+
+  margin-left: 184px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  background-color: rgb(02, 14, 26);
+  color: cornsilk;
+  cursor: pointer;
+}
+.b1{
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  align-items:end;
+
+  margin-left: 50px;
+  padding-left: 17px;
+  padding-right: 15px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  background-color: rgb(02, 14, 26);
+  color: cornsilk;
+  cursor: pointer;
+}
+#fname{
+  padding: 12px 20px;
+}
+.b2e{
+  margin-left: 184px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+ 
+  cursor: pointer;
+}
+.b2d{
+  margin-left: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  color: cornsilk;
+  cursor: pointer;
+}
+tr{
+ 
+  padding: 20px;
+}
+.t1{
+   margin: auto;
+
+}
+.lb{
+  margin-top: 0px;
+}
+.b2ed{
+  height: 20px;
+  width: 20px;
+ 
+} 
+
+/*new */
+.he1 {
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  align-items:end;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.bu:hover {background-color: #3e8e41}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bu:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
+.he1:hover {background-color: #3e8e41}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.he1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
+.b1:hover {background-color: #3e8e41}
 
-.App-link {
-  color: #61dafb;
+.b1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
+.b2:hover {background-color: #3e8e41}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.b2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.b2e:hover {background-color: #3e8e41}
+
+.b2e:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.b2d:hover {background-color: #b63b1d}
+
+.b2d:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.completed{
+  text-decoration: line-through;
+opacity: 0.5;
+}
+.hee{
+  margin-left: 60pc;
 }
